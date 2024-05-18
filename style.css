@@ -1,0 +1,96 @@
+
+*{
+    margin-left: 0;
+    font-family:"Open Sans",sans-serif;
+
+}
+
+.header{
+    margin-top: 1.7%;
+   
+    
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    
+    width: 100%;
+    object-fit: contain;
+}
+
+ .first{
+    width:30%;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+}
+h2{
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-family: 'Raleway';
+    font-size: 43px;
+}
+p{  font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.hero{
+   
+    display:flex;
+    justify-content: space-between;
+}
+.firsthero_box{
+    
+    width:50%;
+}
+.secondhero_box{
+    width:50%;
+}
+.input_email{
+    height: 30px;
+    width: 53%;
+    
+}
+.email_button{
+    color:hsl(240, 75%, 98%);
+    border: none;
+    height: 35px;
+    width: 35%;
+  
+  background-color: hsl(224, 93%, 58%) ;
+}
+.secondsection_itemone{
+    width:50%;
+
+}
+.secondsection_itemtwo{
+    width: 50%;
+}
+
+
+a{
+    text-decoration: underline;
+    font-size: 22px;
+    color:hsl(170, 45%, 43%);
+    
+}
+a:link{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.qoutes{
+    background-color:white;
+
+}
+.avatar_testimonial{
+    display: flex;
+
+}
+.avatar{
+    border-radius: 50%;
+    width: 50%;
+}
